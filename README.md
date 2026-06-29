@@ -281,4 +281,26 @@ AI assistance was used for:
 - Refining the architecture narrative
 - Documentation wording
 
+## Homelab Architecture
+
+This repo also includes my personal secure remote-access homelab architecture.
+
+The lab is used to test segmented networking, firewall policy behavior, Docker-hosted services, virtualization, identity-aware remote access concepts, and Tailscale-style overlay access.
+
+**Architecture diagram:**  
+[View Homelab Diagram](./diagrams/Homelab-updated.jpg)
+
+### What the lab demonstrates
+
+- FortiGate firewall policy design and inter-VLAN segmentation
+- FortiSwitch VLAN trunking and lab network separation
+- UDM Pro as the user-network exit gateway
+- Lab network behind FortiGate for inspection and control
+- ESXi virtualization with Windows, security, and utility VMs
+- Docker-hosted internal services such as Portainer, Immich, Jellyfin, Nextcloud, NetAlertX, Homepage/Homer, and automation services
+- Tailscale remote access concepts using MagicDNS, ACLs, and no-public-inbound access
+- Practical troubleshooting across routing, firewall, DNS, virtualization, and application layers
+
+No production data, secrets, public admin panels, or sensitive configuration details are included.
+
 All implementation decisions, testing, validation, and final review were performed manually. AI suggestions were reviewed and adjusted based on actual lab behavior.
