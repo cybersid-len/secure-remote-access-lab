@@ -280,7 +280,7 @@ AI assistance was used for:
 - Structuring the README
 - Refining the architecture narrative
 - Documentation wording
-
+All implementation decisions, testing, validation, and final review were performed manually. AI suggestions were reviewed and adjusted based on actual lab behavior.
 ## Homelab Architecture
 
 This repo also includes my personal secure remote-access homelab architecture.
@@ -303,4 +303,4 @@ The lab is used to test segmented networking, firewall policy behavior, Docker-h
 
 No production data, secrets, public admin panels, or sensitive configuration details are included.
 
-All implementation decisions, testing, validation, and final review were performed manually. AI suggestions were reviewed and adjusted based on actual lab behavior.
+
